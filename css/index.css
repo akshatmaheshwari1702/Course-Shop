@@ -22,6 +22,7 @@ html {
   transition: 0.2s ease-in-out;
    position: fixed;
   top: 0;
+  box-sizing: border-box;
 }
 
 .nav__list {
@@ -128,6 +129,26 @@ a {
 .main{
   min-height: 100vh;
   margin-top: 5rem;
+}
+
+.courses-section {
+  background-color: #007bff;
+  
+}
+h2 {
+  color: aliceblue;
+}
+.courses {
+  display: flex;
+  flex-direction: row;
+  /* background-color: #007bff; */
+  
+
+}
+
+.card {
+  margin: 2rem;
+  padding: 0.5rem;
 }
 
 #footer-section {
