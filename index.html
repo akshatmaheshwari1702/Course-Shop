@@ -37,7 +37,7 @@
                     <a href="#home-section" class="nav__link" id="home">Home</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#about-section" class="nav__link" id="about">About</a>
+                    <a href="#road" class="nav__link" id="courses">Courses</a>
                 </li>
                 <li class="nav__item">
                     <a href="signup.html" class="nav__link" id="signup">Sign Up</a>
@@ -48,7 +48,18 @@
                 <li class="nav__item">
                     <a href="contact.html" class="nav__link" id="contact">Contact</a>
                 </li>
-                
+                <!--user image-->
+                <li class="nav__item">
+                  <a href="#" class="nav__link" id="user-profile" data-toggle="dropdown"><img src="/images/icons/user.png"></a>
+                  <div class="dropdown-menu dropdown-menu-right">
+                      <a href="#" class="dropdown-item">Reports</a>
+                      <a href="#" class="dropdown-item">Settings</a>
+                      <div class="dropdown-divider"></div>
+                      <a href="#"class="dropdown-item">Logout</a>
+                  </div>
+              </li>
+                <!--*******************-->
+
             </ul>
         </nav>
     </header>
@@ -57,16 +68,25 @@
     
     <!--main portion-->
     <div class="main">
+      <h1 class="head-center">Learn Without <br> Limits</h1>
+      <div class="input-group rounded">
+        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+          aria-describedby="search-addon" />
+        <span class="input-group-text border-0" id="search-addon">
+          <i class="fas fa-search"></i>
+        </span>
+      </div>
+      <div class="signup-button">
+
+        <button type="button" class="btn btn-primary">
+          <a href="/signup.html" class="center-button">Join For Free</a></button>
+      </div>
 
     </div>
     <!--main page ends-->
 
-    <!--About Section-->
-    
-    <!--About Section Ends-->
-
-    <!--Courses Main-->
-    <div class="courses-section">
+        <!--Courses Main-->
+    <div class="courses-section" id="road">
      <center> 
     <h2>Courses</h2>
   </center>

@@ -17,6 +17,7 @@ html {
   width: 100%;
   display: block;
   justify-content: flex-start;
+  align-content: center;
   z-index: 10;
   font-weight: 300;
   transition: 0.2s ease-in-out;
@@ -29,8 +30,9 @@ html {
   list-style: none;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   margin-left: 55vh;
-  margin-top: -49px;
+  margin-top: -69px;
   padding: 0vh 4vw;
 }
 
@@ -123,6 +125,11 @@ a {
    width: 100%;
  } 
 }
+
+#user-profile {
+
+  margin-top: 0;
+}
 /* **************************************************************** */
 
 /* *********Main Portion ************ */
@@ -131,6 +138,34 @@ a {
   margin-top: 5rem;
 }
 
+  .main .head-center {
+  line-height: 64px;
+    font-size: 64px;
+    letter-spacing: -0.2px;
+    font-weight: 600;
+    padding-top: 120px;
+    padding-left: 20px; 
+       
+} 
+.main .input-group {
+  width: 20%;
+  padding-left: 20px;
+}
+.main .signup-button {
+  padding-left: 20px;
+  padding-top: 10px;
+  
+}
+.main .signup-button .center-button {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* main section ends */
+
+
+
+/* Course Section*/
 .courses-section {
   background-color: #007bff;
   
@@ -141,16 +176,29 @@ h2 {
 .courses {
   display: flex;
   flex-direction: row;
-  /* background-color: #007bff; */
-    
-
+  overflow-x: scroll;
+  width: 1250px;
+  padding: 3rem ;
 }
 
 .card {
-  margin: 2rem;
-  padding: 0.5rem;
+  min-width: 300px;
+  height: 500px;
+  border-radius: 16px;
+  box-shadow: -1rem 0 3rem #000;
+  display: flex;
+  flex-direction: column;
+   /*margin: 2rem; */
+  padding: 1.5rem;
+  transition: 0.2s;
+  
 }
-
+.card:hover {
+  transform: translateY(-1rem);
+}
+.card:hover~.card{
+  transform: translateX(130px);
+}
 #footer-section {
   background-color:gray;
   
