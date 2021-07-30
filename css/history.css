@@ -1,0 +1,11 @@
+table {
+    table-layout: auto;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 70px;
+}
+tr , th , td  {
+    border: 2px solid black;
+    padding: 2px;    
+    text-align: center;
+}
