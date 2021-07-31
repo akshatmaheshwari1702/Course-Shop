@@ -166,20 +166,49 @@ a {
 
 
 /* Course Section*/
-.courses-section {
+.courses-container {
+  position: relative;
   background-color: #007bff;
+  width: 100%;
+  box-sizing: border-box;
+  
   
 }
-h2 {
+.courses-section {
+  background-color: #007bff;
+   overflow-x: scroll;  
+}
+h1 {
   color: aliceblue;
+  font-size: 50px;
+  
 }
 .courses {
   display: flex;
   flex-direction: row;
-  overflow-x: scroll;
+  
   width: 1250px;
   padding: 3rem ;
 }
+
+#left-arrow {
+  font-size: 5rem;
+  position: absolute;
+  top: 50%;
+  z-index: 3;
+  background-color: aliceblue;
+
+}
+
+#right-arrow {
+  font-size: 5rem;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 3;
+  background-color: aliceblue;  
+}
+
 
 .card {
   min-width: 300px;

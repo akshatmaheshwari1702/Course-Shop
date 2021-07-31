@@ -14,3 +14,14 @@ navLinks.forEach((link) => {
         document.body.classList.remove("nav-open");
     });
 });
+
+//scroll js
+const rightArrow = document.getElementById('right-arrow');
+const leftArrow = document.getElementById('left-arrow');
+
+rightArrow.onclick = function () {
+  document.getElementById('road').scrollLeft += 50;
+};
+leftArrow.onclick = function () {
+  document.getElementById('road').scrollLeft -= 50;
+};
