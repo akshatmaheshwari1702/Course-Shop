@@ -1,0 +1,54 @@
+body {
+    background-image: url("/images/background.png");
+    background-position: center;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+
+.jumbo-design {
+    clip-path: polygon(41% 0, 84% 0, 100% 0, 99% 96%, 71% 83%, 25% 97%, 0 71%, 0 0);
+}
+
+.b-color {
+    background-color: #ff1f1f!important;
+}
+
+/* *********Main Portion ************ */
+.main{
+  min-height: 100vh;
+  margin-top: 5rem;
+}
+
+  .main .head-center {
+  line-height: 64px;
+    font-size: 64px;
+    letter-spacing: -0.2px;
+    font-weight: 600;
+    padding-top: 120px;
+    padding-left: 20px; 
+       
+} 
+.main .input-group {
+  width: 20%;
+  padding-left: 20px;
+}
+.main .signup-button {
+  padding-left: 20px;
+  padding-top: 10px;
+  
+}
+.main .signup-button .center-button {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* main section ends */
+
+
+
+#footer-section {
+    background-color:gray;
+    
+  }
